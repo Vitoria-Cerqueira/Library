@@ -8,15 +8,6 @@ public class BookService {
     private Statement stmt;
     private Connection connection = connection();
 
-//    public BookService() {
-//        try {
-//            stmt = connection().createStatement();
-//
-//        } catch (SQLException e) {
-//            e.printStackTrace();
-//        }
-//    }
-
 
     public void register(int code, String nameBook, String nameAuthor, String date) {
         String sql = "INSERT INTO books (code, namebook, nameauthor, date) VALUES (?,?,?,?)";

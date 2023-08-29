@@ -1,7 +1,4 @@
 package org.example;
-
-import org.example.model.BookModel;
-import org.example.service.BookService;
 import org.example.view.MenuView;
 
 public class Main {
